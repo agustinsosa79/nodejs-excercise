@@ -1,0 +1,48 @@
+✅ 1. Crear un servidor básico
+Usando el módulo http de Node.js, creá un servidor que responda con "Hola mundo desde Node.js".
+
+✅ 2. Enviar diferentes respuestas según la URL
+Si el usuario entra a /, responder con "Inicio".
+Si entra a /about, responder con "Acerca de".
+Si entra a cualquier otra ruta, responder con "404 - Página no encontrada".
+
+✅ 3. Mostrar una página HTML
+Usá fs para leer un archivo index.html y mostrar su contenido como respuesta del servidor.
+
+✅ 4. Crear un módulo propio
+Creá un archivo saludo.js que exporte una función que devuelva "Hola, [nombre]".
+Luego importalo desde otro archivo y usalo para mostrar el saludo.
+
+✅ 5. Leer un archivo de texto
+Usá fs.readFile para leer un archivo mensaje.txt y mostrar su contenido por consola.
+
+✅ 6. Escribir en un archivo
+Pedí al usuario (por consola) que ingrese un texto, y guardalo en un archivo output.txt usando fs.writeFile.
+
+✅ 7. Crear una API de productos (sin Express)
+Hacé un array de productos en memoria, y devolvé los productos en formato JSON cuando se acceda a /productos.
+
+✅ 8. Usar path para construir rutas seguras
+Creá una función que reciba un nombre de archivo y devuelva su ruta absoluta usando el módulo path.
+
+✅ 9. Guardar logs de acceso
+Cada vez que alguien entre a tu servidor, guardá la fecha y la ruta visitada en un archivo log.txt.
+
+✅ 10. Procesar argumentos de línea de comandos
+Crea un script que reciba dos números por consola (node app.js 3 7) y muestre la suma de ambos.
+
+✅ 11. Crear una pequeña base de datos en JSON
+Guardá un archivo db.json que contenga un array de objetos (por ejemplo: tareas).
+Creá funciones para agregar una nueva tarea, listar todas y eliminar por ID.
+
+✅ 12. Mini CRUD en consola
+Simulá un sistema donde puedas:
+
+node app.js add "Hacer la compra"
+
+node app.js list
+
+node app.js remove 2
+
+Todo debe guardarse y leerse desde un archivo tareas.json.
+
